@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<title>project 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/project3.css">
+</head>
+
+<body>
+
+	<h1>Code Review</h1>
+
+<div class="container">
+
+<div class="intro">
+	<h2>Sign up to our news letter</h2>
+	<p>Get the latest news on how your code is doing right in your inbox</p>
+</div>
+
+
+<form>
+	<fieldset>
+		<legend>Contact Information</legend>
+
+
+<div class="flex-form">
+	<label for="name">Full Name</label>
+	<input type="text" id="name" name="name" placeholder="Required">
+</div>
+
+
+<div class="flex-form">
+	<label for="email">Email</label>
+	<input type="email" id="email" name="email" placeholder="Required">
+</div>
+
+
+<div class="flex-form">
+	<label for="tel">Phone number</label>
+	<input type="tel" id="tel" name="tel">
+</div>
+
+
+<div class="flex-form">
+	<label for="address">Street Address</label>
+	<input type="text" id="address" name="user_address">
+</div>
+
+
+<div class="flex-form">
+	<label for="city">City</label>
+	<input type="text" id="city" name="user_city">
+</div>
+
+
+<div class="flex-form">
+		<label for="state">State</label>
+		<select id="state" name="state">
+		<option value="" disabled selected>Where you at?</option>
+		<optgroup label="A to D">
+		<option value="Alabama">Alabama</option>
+		<option value="California">California</option>
+		<option value="Deleware">Deleware</option>
+		<optgroup label="F to I">
+		<option value="Florida">Florida</option>
+		<option value="Georgina">Georgina</option>
+		<option value="Hawaii">Hawaii</option>
+		<option value="Idaho">Idaho</option>
+	</select>
+</div>
+
+
+<div class="flex-form">
+	<label for="zip">Zip Code</label>
+	<input type="text" id="zip" name="zip_code">
+</div>
+
+</fieldset>
+
+
+<fieldset>
+	<h2>News letter</h2>
+	<P>Select the news letter's you'd like to recieve</P>
+
+
+<div class="form">
+	<input type="checkbox" id="html_news" value="html_news" name="news"><label for="html_news">HTML News</label>
+</div>
+
+<div class="form">
+	<input type="checkbox" id="css_text" value="css_text" name="news"><label for="css_text">CSS News</label>
+</div>
+
+<div class="form">
+	<input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news"><label for="javascript_news">Javascript</label>
+</div>
+
+<h2>News Letter format</h2>
+
+<div class="form">
+	<input type="radio" ID="HTML" value="HTML" name="name"><label for="HTML">HTML</label>
+</div>
+
+<div class="form">
+	<input type="radio" ID="plain_text" value="plain_text" name="name"><label for="plain_text">Plain Text</label>
+</div>
+
+<div class="textbutton">
+    <p>Other Subjects you'd love to hear about!</p>
+	<textarea class="textarea" id="other_subjects" name="other"></textarea>
+	<button>Submit</button>
+</div>
+
+		</fieldset>
+
+	</form>
+
+</div>
+
+<footer>
+	<p>Copyright the code</p>
+</footer>
+
+</body>
+
+</html>
